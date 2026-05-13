@@ -133,6 +133,7 @@ footer {
   }
   .partner {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   gap: 24px;
   margin-bottom: 36px;
@@ -146,6 +147,9 @@ footer {
   max-height: 100px;
   object-fit: contain;
   flex-shrink: 0;
+}
+  .partner-text {
+  flex: 1;
 }
 
 .partner-text h3 {

@@ -95,14 +95,16 @@ section h2 {
 
 .logos {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 24px;
 }
 
 .logos img {
   max-height: 140px;
-  max-width: 360px;
+  width: auto;
+  object-fit: contain;
 }
 
 footer {

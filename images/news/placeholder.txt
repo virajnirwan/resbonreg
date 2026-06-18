@@ -1,0 +1,6 @@
+Place news photos here, for example:
+- kickoff-meeting.jpg
+- scaffold-fabrication.jpg
+- conference-poster.jpg
+
+Update the image paths in index.html to match your filenames.

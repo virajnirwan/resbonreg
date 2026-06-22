@@ -626,6 +626,41 @@ code {
   line-height: 1.5;
 }
 
+.funding-logos {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.funding-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 1rem;
+}
+
+.logos-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.funding-logo {
+  height: 50px;
+  width: auto;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  filter: brightness(0) invert(1);
+}
+
+.funding-logo:hover {
+  opacity: 1;
+}
+
 /* ── Responsive ── */
 @media (max-width: 960px) {
   .hero-inner {
@@ -672,5 +707,13 @@ code {
   .partner-logo-wrap {
     width: 100%;
     max-width: 200px;
+  }
+
+  .logos-container {
+    gap: 1rem;
+  }
+
+  .funding-logo {
+    height: 40px;
   }
 }
